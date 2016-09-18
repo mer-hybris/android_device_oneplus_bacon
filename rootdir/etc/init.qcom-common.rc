@@ -336,12 +336,12 @@ service netmgrd /system/bin/netmgrd
 
 # QCOM sensor
 service sensors /system/bin/sensors.qcom
-    class late_start
+    class main
     user root
     group root
 
 service sensorservice /system/bin/sensorservice
-    class late_start
+    class main
     user root
     group root
 
